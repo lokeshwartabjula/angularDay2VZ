@@ -1,0 +1,9 @@
+{"tours" : [
+
+    {"id":1, "tourName":"chennai","price":4500},
+    {"id":2, "tourName":"pondy","price":6500},
+    {"id":3, "tourName":"tada","price":5500},
+    {"id":4, "tourName":"mahabs","price":7500}
+    
+]
+}
