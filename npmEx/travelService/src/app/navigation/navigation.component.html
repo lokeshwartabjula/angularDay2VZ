@@ -1,5 +1,6 @@
 <ul>
     <li *ngFor="let eachLink of linkList">
-        <a [routerLink]="[eachLink.link]">
+        <a [routerLink]="[eachLink.link]"> 
+            <!-- routerLink is given in square brackets because it is property binding -->
         {{eachLink.text}}</a></li>
 </ul>

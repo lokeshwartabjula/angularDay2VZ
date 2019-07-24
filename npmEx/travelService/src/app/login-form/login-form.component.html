@@ -1,1 +1,15 @@
 <p>login-form works!</p>
+
+<!-- form>(label+input)*2+input -->
+<!-- event binding happening at ngSubmit -->
+<form #frm="ngForm" (ngSubmit)="validate()">
+    <label for="">User Name</label>
+    <!-- two way binding happening at ngModel -->
+    <input type="text" name="userName" [(ngModel)]='user.userName'>
+    <label for="">Password</label>
+    <input type="passWord" name="passWord" [(ngModel)]='user.passWord'>
+    <input type="submit" value="Login">
+</form>
+<!-- interpolation here -->
+{{status}} 
+
